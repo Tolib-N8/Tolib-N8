@@ -42,5 +42,7 @@ AI-ассистент для Telegram с серверной логикой и з
 ---
 
 ## 📫 Связь
-- Telegram: *(по желанию добавишь)*
+- Telegram: @TheBestDeve1oper
 - GitHub: https://github.com/Tolib-N8
+- Email: crypto.private@yahoo.com
+- Discord: https://discord.com/users/1351963124067995749
