@@ -168,8 +168,9 @@ Spaced-repetition word trainer (FSRS): flashcards, spelling drills and shadowing
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Tolib-N8&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=05070f&title_color=22d3ee&icon_color=f472b6&text_color=94a3b8&ring_color=8b5cf6" height="165" alt="GitHub stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tolib-N8&layout=compact&hide_border=true&bg_color=05070f&title_color=22d3ee&text_color=94a3b8&langs_count=8" height="165" alt="Top languages">
+<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Contributions">
+<img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub stats">
+<img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most used languages">
 
 <img src="https://raw.githubusercontent.com/Tolib-N8/Tolib-N8/output/github-snake-dark.svg" width="100%" alt="Snake eating my contribution graph">
 

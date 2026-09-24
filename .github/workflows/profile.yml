@@ -1,7 +1,7 @@
-name: Snake
+name: Profile
 
-# Раз в день перерисовывает «змейку», которая съедает график коммитов,
-# и кладёт SVG в ветку output (на неё ссылается README).
+# Раз в день перерисовывает «змейку» (ветка output) и карточки статистики
+# (папка profile-summary-card-output) — README ссылается на них.
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -27,3 +27,15 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
